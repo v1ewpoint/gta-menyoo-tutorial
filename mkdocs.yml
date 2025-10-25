@@ -1,6 +1,22 @@
-site_name: My Docs
+site_name: GTA V Mod Tutorials
+site_url: https://v1ewpoint.github.io/gta-menyoo-tutorial/
+site_description: Eine Schritt-für-Schritt Anleitung zur Installation und Nutzung des Menyoo Mod-Menüs in GTA V.
 theme:
   name: material
+  palette:
+    scheme: slate  # Nur Dunkelmodus
+    
+  features:
+    - toc.integrate
+    - navigation.instant
+    - navigation.tabs
+    - search.highlight
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/v1ewpoint/gta-menyoo-tutorial
+  generator: false
+    
 nav:
   - Start: index.md
   - Installation: installation.md
